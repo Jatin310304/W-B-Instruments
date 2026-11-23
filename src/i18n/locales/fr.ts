@@ -1,0 +1,1757 @@
+// fr translation of the W&B Instruments website (v12). Generated from en.ts; brand, model and unit names stay in English.
+import type { DeepPartial, Messages } from './en'
+
+export const fr: DeepPartial<Messages> = {
+  "meta": {
+    "siteName": "W&B Instruments",
+    "titleSuffix": " | W&B Instruments",
+    "homeTitle": "Instrumentation et étalonnage en Australie | W&B Instruments",
+    "homeDescription": "Pyromètres infrarouges, afficheurs de process et instruments environnementaux, testés et étalonnés dans notre atelier de Kilsyth (VIC). ISO 9001:2015. Appelez le +61 3 9729 2112."
+  },
+  "seo": {
+    "/about": {
+      "title": "À propos de W&B Instruments | Spécialistes de l’instrumentation à Kilsyth (VIC)",
+      "description": "Fournisseur certifié ISO 9001:2015 d’instruments portables et de process, avec étalonnage interne et assistance applicative. Kilsyth, Victoria."
+    },
+    "/products": {
+      "title": "Instruments de mesure industriels | W&B Instruments",
+      "description": "Pyromètres infrarouges, indicateurs de tableau, transmetteurs, instruments d’humidité, d’air, de son, de lumière et d’eau de Sensortherm, Status, Senseca et Giussani."
+    },
+    "/solutions/temperature-measurement": {
+      "title": "Instruments de mesure de température | W&B Instruments",
+      "description": "Température avec et sans contact : pyromètres, transmetteurs, thermomètres, enregistreurs et calibrateurs, testés avant expédition."
+    },
+    "/solutions/infrared-thermometry": {
+      "title": "Pyromètres infrarouges en Australie | Sensortherm | W&B",
+      "description": "Pyromètres infrarouges fixes et portables pour les métaux, le verre, les non-métaux et les procédés laser, avec sources corps noir et étalonnage jusqu’à 1700 °C."
+    },
+    "/solutions/calibration-testing": {
+      "title": "Étalonnage de température et de pyromètres à Melbourne | W&B",
+      "description": "Étalonnage traçable de température, pression et humidité à Kilsyth ou sur site, y compris pyromètres et caméras thermiques jusqu’à 1700 °C."
+    },
+    "/solutions/displays": {
+      "title": "Indicateurs de tableau et alimentés par la boucle | W&B Instruments",
+      "description": "Indicateurs de tableau Status Instruments, numériques et alimentés par la boucle, avec options d’alarme et de retransmission."
+    },
+    "/solutions/signal-conditioning": {
+      "title": "Conditionneurs de signal et transmetteurs de température | W&B",
+      "description": "Transmetteurs de température, conditionneurs de signal, amplificateurs à seuil, isolateurs de boucle et alimentations sur rail DIN Status Instruments."
+    },
+    "/solutions/environmental-monitoring": {
+      "title": "Instruments de surveillance environnementale | W&B Instruments",
+      "description": "Instruments de vitesse d’air, humidité, son, lumière, contrainte thermique, météo et enregistrement de données de Senseca (Delta OHM)."
+    },
+    "/products/humidity-measurement": {
+      "title": "Hygromètres et sondes | Senseca | W&B Instruments",
+      "description": "Instruments, sondes et transmetteurs d’humidité et de température Senseca (Delta OHM), avec étalonnage traçable de l’humidité."
+    },
+    "/products/pressure-measurement": {
+      "title": "Manomètres | Senseca | W&B Instruments",
+      "description": "Manomètres Senseca (Delta OHM), avec étalonnage traçable de la pression dans l’atelier W&B du Victoria."
+    },
+    "/support": {
+      "title": "Assistance technique et applicative | W&B Instruments",
+      "description": "De l’aide pour choisir, configurer et étalonner votre instrument. Réponse à chaque demande sous 24 heures."
+    },
+    "/industries": {
+      "title": "Secteurs accompagnés | W&B Instruments",
+      "description": "Mesure pour les métaux, le verre, l’agroalimentaire, le CVC, la recherche, les usines de process, le traitement laser, l’eau, l’environnement et l’hygiène industrielle."
+    },
+    "/resources": {
+      "title": "Ressources techniques | W&B Instruments",
+      "description": "Documentation, fiches techniques, articles techniques et guides de mesure."
+    },
+    "/news": {
+      "title": "Actualités et analyses | W&B Instruments",
+      "description": "Nouveautés produits, conseils d’étalonnage et analyses de mesure par l’équipe technique de W&B."
+    },
+    "/contact": {
+      "title": "Contacter W&B Instruments | Kilsyth (VIC) | +61 3 9729 2112",
+      "description": "Appelez le +61 3 9729 2112, écrivez-nous ou envoyez une demande. Nous répondons sous 24 heures. 20 Shelley Ave, Kilsyth VIC 3137."
+    }
+  },
+  "common": {
+    "skip": "Aller au contenu principal",
+    "home": "Accueil",
+    "breadcrumb": "Fil d’Ariane",
+    "viewProduct": "Voir le produit",
+    "viewProducts": "Voir les produits",
+    "viewAll": "Tout voir",
+    "readMore": "Lire la suite",
+    "learnMore": "En savoir plus",
+    "explore": "Explorer",
+    "enquire": "Faire une demande",
+    "contactTeam": "Contacter notre équipe",
+    "studioRender": "Rendu studio",
+    "exampleImage": "L’image montre un exemple de la gamme",
+    "placeholder": "Espace réservé",
+    "placeholderContent": "Contenu provisoire",
+    "verified": "Gamme publiée",
+    "partial": "Partiellement confirmé",
+    "pending": "Gamme à confirmer",
+    "tbc": "À confirmer",
+    "opensNewTab": "(s’ouvre dans un nouvel onglet)",
+    "onThisPage": "Sur cette page",
+    "backToTop": "Haut de page",
+    "close": "Fermer",
+    "required": "obligatoire",
+    "optional": "facultatif",
+    "dateTbc": "Date à confirmer",
+    "source": "Source",
+    "manufacturer": "Fabricant",
+    "category": "Catégorie",
+    "linkedin": "W&B Instruments sur LinkedIn (s’ouvre dans un nouvel onglet)",
+    "photoCredit": "Photo :"
+  },
+  "header": {
+    "utilityNav": "Entreprise",
+    "mainNav": "Principal",
+    "country": "Pays ou région",
+    "countryChange": "Changer de pays ou de région",
+    "language": "Langue",
+    "languageChange": "Changer de langue",
+    "global": "Monde",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "homeLink": "Accueil W&B Instruments",
+    "themeToDark": "Passer en mode sombre",
+    "themeToLight": "Passer en mode clair"
+  },
+  "nav": {
+    "home": "Accueil",
+    "industries": "Secteurs",
+    "productsServices": "Produits et services",
+    "businesses": "Nos entreprises",
+    "resources": "Ressources",
+    "support": "Assistance",
+    "contact": "Contact",
+    "news": "Actualités et événements",
+    "about": "À propos",
+    "careers": "Carrières",
+    "allIndustries": "Tous les secteurs",
+    "allProducts": "Tous les produits et services",
+    "allBusinesses": "Toutes les entreprises",
+    "allResources": "Toutes les ressources",
+    "supportHome": "Vue d’ensemble de l’assistance",
+    "industriesIntro": "La mesure pour les applications que nous accompagnons chaque jour.",
+    "productsIntro": "Des instruments, de l’étalonnage et l’assistance pour les mettre en œuvre.",
+    "businessesIntro": "Forge, fonderie, débit et vannes, par Metaval Engineering.",
+    "resourcesIntro": "Documentation, fiches techniques, actualités et lectures techniques.",
+    "supportIntro": "Parlez aux personnes qui connaissent l’instrument.",
+    "resourcesMenu": {
+      "documentation": "Documentation technique",
+      "datasheets": "Fiches techniques produits",
+      "news": "Actualités et événements",
+      "insights": "Analyses",
+      "articles": "Articles techniques"
+    },
+    "supportMenu": {
+      "technical": "Assistance technique",
+      "product": "Demandes produits",
+      "application": "Assistance applicative",
+      "team": "Contacter notre équipe"
+    }
+  },
+  "regions": {
+    "AU": "Australie",
+    "INT": "International",
+    "intNotice": "W&B Instruments est basée à Kilsyth, dans l’État de Victoria, en Australie. Pour les demandes hors d’Australie, contactez notre équipe et nous vous dirons comment nous pouvons vous aider.",
+    "intNoticeLink": "Contacter notre équipe",
+    "dismiss": "Fermer"
+  },
+  "languages": {
+    "moreToCome": "Les noms de marques, de produits et de modèles restent en anglais. Les pages juridiques sont publiées en anglais.",
+    "pseudoNote": "QA uniquement : vérifie que chaque texte est traduisible."
+  },
+  "search": {
+    "label": "Rechercher",
+    "placeholder": "Rechercher produits, secteurs, ressources",
+    "submit": "Rechercher",
+    "open": "Ouvrir la recherche",
+    "clear": "Effacer la recherche",
+    "title": "Rechercher",
+    "resultsFor": "Résultats pour « {q} »",
+    "resultCount": "{n} résultats",
+    "resultCountOne": "1 résultat",
+    "seeAll": "Voir tous les résultats pour « {q} »",
+    "emptyTitle": "Que mesurez-vous ?",
+    "emptyText": "Recherchez des produits, des groupes de produits, des secteurs, nos entreprises, des ressources techniques et des actualités.",
+    "suggestions": "Recherches fréquentes",
+    "suggestionList": [
+      "Pyromètre",
+      "Étalonnage",
+      "Humidité",
+      "4–20 mA",
+      "Vannes",
+      "Enregistreur de données"
+    ],
+    "noResultsTitle": "Aucun résultat pour « {q} »",
+    "noResultsText": "Vérifiez l’orthographe ou essayez un terme plus large, comme « température » ou « étalonnage ». Ou dites-nous ce que vous devez mesurer et nous vous aiderons.",
+    "types": {
+      "product": "Produit",
+      "solution": "Produits et services",
+      "category": "Catégorie de produits",
+      "industry": "Secteur",
+      "business": "Nos entreprises",
+      "resource": "Ressource",
+      "news": "Actualités",
+      "page": "Page"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Température · Pression · Humidité",
+      "lead": "Mesure de précision. Instrumentation experte. Étalonnage de confiance.",
+      "titleA": "Mesuré.",
+      "titleB": "Étalonné.",
+      "titleC": "Fiable.",
+      "text": "Instruments de mesure industriels, expertise technique spécialisée et assistance fiable en étalonnage pour l’industrie.",
+      "primary": "Réserver un étalonnage",
+      "secondary": "Voir la gamme",
+      "imageAlt": "Modèle 3D d’un pyromètre infrarouge",
+      "readingLabel": "Plage d’étalonnage, infrarouge"
+    },
+    "intro": {
+      "eyebrow": "W&B Instruments",
+      "title": "Instruments, expertise et étalonnage par une seule équipe au Victoria.",
+      "text": "Depuis 38 ans, W&B Instruments fournit au marché australien des instruments portables et de process des plus grands fabricants. Nous vous aidons à choisir le bon instrument, le testons avant qu’il ne quitte notre atelier de Kilsyth et l’étalonnons avec traçabilité, pour que vous puissiez vous fier à la mesure.",
+      "supporting": "Pyromètres infrarouges Sensortherm. Indicateurs de tableau et conditionneurs de signal Status Instruments. Instruments d’humidité, d’air, de son, de lumière et d’eau Senseca. Calibrateurs de température Giussani. Chacun est testé avant de partir et étalonné avec traçabilité quand vous en avez besoin.",
+      "cta": "À propos de W&B"
+    },
+    "stats": [
+      {
+        "value": "38",
+        "unit": "ans",
+        "label": "Au service du marché australien"
+      },
+      {
+        "value": "75+",
+        "unit": "ans",
+        "label": "Expertise technique cumulée"
+      },
+      {
+        "value": "ISO",
+        "unit": "9001:2015",
+        "label": "Management de la qualité certifié · FS604761"
+      },
+      {
+        "value": "24",
+        "unit": "h",
+        "label": "Expédition des articles en stock"
+      }
+    ],
+    "industries": {
+      "eyebrow": "Secteurs",
+      "title": "Secteurs accompagnés",
+      "text": "De la métallurgie et l’agroalimentaire au CVC et à la recherche, nous adaptons l’instrument à l’application.",
+      "cta": "Tous les secteurs"
+    },
+    "products": {
+      "eyebrow": "Produits et services",
+      "title": "Instruments des plus grands fabricants",
+      "text": "Pyromètres infrarouges, afficheurs, conditionnement de signal, instruments environnementaux et équipements d’étalonnage, choisis pour fonctionner ensemble et testés avant expédition.",
+      "cta": "Tous les produits et services"
+    },
+    "temperature": {
+      "eyebrow": "Mesure de température",
+      "title": "Mesure de température infrarouge, avec et sans contact",
+      "text": "Pyromètres infrarouges fixes et portables pour des cibles chaudes, en mouvement ou difficiles d’accès, avec des plages spectrales choisies pour les métaux, le verre, les non-métaux et les procédés laser.",
+      "points": [
+        "Pyromètres à courte longueur d’onde et bichromatiques pour les métaux, dont l’émissivité est faible et varie pendant le traitement",
+        "Pyromètres conçus pour mesurer les surfaces et les bains de verre",
+        "Pyromètres haute vitesse pour le traitement laser et la fabrication additive",
+        "Sources corps noir pour vérifier les pyromètres et les caméras thermiques"
+      ],
+      "reading": "1700",
+      "readingUnit": "°C",
+      "readingLabel": "Étalonnage infrarouge et thermographique jusqu’à",
+      "cta": "Découvrir la mesure de température"
+    },
+    "calibration": {
+      "eyebrow": "Étalonnage et essais",
+      "title": "Étalonnage traçable, dans notre atelier ou sur votre site",
+      "text": "Étalonnage traçable des instruments de température, de pression et d’humidité dans notre atelier de Kilsyth ou sur votre site, y compris les pyromètres infrarouges et la thermographie jusqu’à 1700 °C, à l’aide d’instruments étalonnés par la N.A.T.A. et le National Measurement Institute.",
+      "points": [
+        "Test avant livraison à 100 % et contrôle d’étalonnage selon les spécifications du fabricant",
+        "Certificats d’étalonnage traçables fournis en standard le cas échéant",
+        "Étalonnage équivalent N.A.T.A. (via des accords de reconnaissance mutuelle) pour les mesures de vitesse d’air, acoustiques et lumineuses",
+        "Les produits de nos partenaires et de nombreuses autres marques"
+      ],
+      "cta": "Réserver un étalonnage",
+      "more": "Étalonnage et essais",
+      "imageAlt": "Atelier d’étalonnage avec équipements de référence de température"
+    },
+    "businesses": {
+      "eyebrow": "Nos entreprises",
+      "title": "Forge, fonderie, débit et vannes",
+      "text": "Entreprises d’ingénierie et de fabrication de Metaval Engineering, présentées ici aux côtés de l’instrumentation W&B.",
+      "cta": "Toutes les entreprises"
+    },
+    "partners": {
+      "eyebrow": "Partenariats de marques",
+      "title": "Gammes des plus grands fabricants",
+      "text": "Nous représentons des fabricants d’Italie, d’Allemagne et du Royaume-Uni, et accompagnons leurs produits par des essais, un étalonnage et une assistance locaux.",
+      "cta": "Nos partenaires"
+    },
+    "news": {
+      "eyebrow": "Actualités et événements",
+      "title": "Dernières actualités et événements",
+      "text": "Annonces de l’entreprise, lancements de produits, salons et analyses techniques.",
+      "cta": "Toutes les actualités et événements"
+    },
+    "resources": {
+      "eyebrow": "Ressources techniques",
+      "title": "Documentation et lectures techniques",
+      "cta": "Toutes les ressources"
+    },
+    "why": {
+      "eyebrow": "Pourquoi W&B",
+      "title": "Pourquoi nos clients choisissent W&B",
+      "text": "Cinq points à vérifier avant de choisir un fournisseur.",
+      "items": [
+        {
+          "h": "Mesure de précision",
+          "p": "Le bon instrument pour l’application, avec des plages spectrales infrarouges pour les métaux, le verre, les non-métaux et les procédés laser.",
+          "proof": "4 fabricants spécialisés"
+        },
+        {
+          "h": "Étalonnage de confiance",
+          "p": "Étalonnage traçable des instruments de température, de pression et d’humidité, à Kilsyth ou sur site.",
+          "proof": "IR jusqu’à 1700 °C"
+        },
+        {
+          "h": "Instrumentation experte",
+          "p": "Une équipe technique qui vous aide à choisir l’instrument et à le configurer, pas seulement à chiffrer une référence.",
+          "proof": "Plus de 75 ans d’expérience cumulée"
+        },
+        {
+          "h": "Testé avant expédition",
+          "p": "Chaque instrument est testé et contrôlé selon les spécifications du fabricant avant expédition.",
+          "proof": "100 % testés"
+        },
+        {
+          "h": "Rapides et proches",
+          "p": "Une équipe au Victoria qui répond et expédie rapidement. Certifiée ISO 9001:2015 (FS604761).",
+          "proof": "Expédition en 24 h"
+        }
+      ],
+      "proof": "Nos clients vont de nombreuses grandes sociétés cotées australiennes, universités et le CSIRO aux plus petits fabricants.",
+      "cta": "Parler à un technicien"
+    },
+    "faq": {
+      "eyebrow": "Réponses",
+      "title": "Questions fréquentes",
+      "text": "Des réponses claires de notre équipe technique. Posez-nous toute autre question.",
+      "items": [
+        {
+          "q": "Pouvez-vous étalonner des pyromètres infrarouges et des caméras thermiques ?",
+          "a": "Oui. Nous assurons l’étalonnage traçable des instruments sans contact, y compris les pyromètres infrarouges et la thermographie, jusqu’à 1700 °C. Nous utilisons des fours d’étalonnage corps noir et des instruments de référence étalonnés par la N.A.T.A. et le National Measurement Institute.",
+          "link": "calibration"
+        },
+        {
+          "q": "Mes instruments peuvent-ils être étalonnés sur site ?",
+          "a": "Oui. Nous proposons l’étalonnage de température en atelier et sur site. Indiquez-nous les instruments, les plages et le lieu, et nous vous confirmerons ce qui peut être fait sur votre site et ce qu’il vaut mieux faire dans notre atelier de Kilsyth.",
+          "link": "book"
+        },
+        {
+          "q": "Que signifie un étalonnage traçable ?",
+          "a": "Votre instrument est comparé à une référence dont l’étalonnage est relié, par une chaîne ininterrompue, aux étalons nationaux de mesure. Nos instruments de référence sont étalonnés par la N.A.T.A. et le National Measurement Institute, et les certificats traçables sont fournis en standard le cas échéant.",
+          "link": "calibration"
+        },
+        {
+          "q": "En combien de temps expédiez-vous et répondez-vous ?",
+          "a": "Les articles en stock sont expédiés sous 24 heures après votre commande, après essai et contrôle d’étalonnage selon les spécifications du fabricant. Nous répondons à chaque demande sous 24 heures.",
+          "link": "contact"
+        },
+        {
+          "q": "Quels fabricants W&B Instruments distribue-t-elle ?",
+          "a": "Pyromètres infrarouges et sources d’étalonnage Sensortherm, afficheurs et conditionnement de signal Status Instruments, instruments environnementaux, d’humidité et de qualité de l’eau Senseca (Delta OHM), et calibrateurs de température Giussani.",
+          "link": "partners"
+        },
+        {
+          "q": "Comment choisir le bon instrument ?",
+          "a": "Dites-nous ce que vous mesurez, la plage, la cible et l’endroit où l’instrument sera installé. Notre équipe technique, forte de plus de 75 ans d’expérience cumulée, vous recommandera l’instrument et la configuration.",
+          "link": "advice"
+        }
+      ],
+      "links": {
+        "calibration": "Étalonnage et essais",
+        "book": "Réserver un étalonnage",
+        "contact": "Contacter notre équipe",
+        "partners": "Nos partenaires",
+        "advice": "Demander conseil"
+      }
+    },
+    "cta": {
+      "title": "Dites-nous ce que vous devez mesurer.",
+      "text": "Notre équipe technique répond à chaque demande sous 24 heures.",
+      "primary": "Faire une demande",
+      "call": "Appelez-nous au {phone}"
+    }
+  },
+  "industries": {
+    "title": "Secteurs",
+    "intro": "Instrumentation et étalonnage pour les secteurs et applications accompagnés par W&B, avec les produits utilisés dans chacun.",
+    "labels": {
+      "overview": "Vue d’ensemble",
+      "challenges": "Défis de mesure",
+      "instrumentation": "Instrumentation adaptée",
+      "products": "Produits adaptés",
+      "services": "Services",
+      "solutions": "Solutions techniques associées",
+      "enquire": "Parlons de votre application",
+      "enquireText": "Décrivez-nous votre process et nous vous recommanderons l’instrument et la configuration.",
+      "noImage": "Des photographies d’application authentiques seront fournies par W&B.",
+      "photoAlt": "Process industriel typique du secteur {industry}"
+    },
+    "items": {
+      "metals": {
+        "name": "Traitement des minéraux et des métaux",
+        "summary": "Température sans contact pour le métal trop chaud, en mouvement ou difficile d’accès.",
+        "overview": "Les pyromètres infrarouges mesurent la température du métal lors du forgeage, du laminage, du traitement thermique, du chauffage par induction et de la trempe, sans toucher le produit.",
+        "challenges": [
+          "Cibles trop chaudes, en mouvement ou difficiles d’accès pour un capteur à contact",
+          "Surfaces métalliques brillantes à faible émissivité qui varie pendant le traitement",
+          "Mesures nécessaires sur les armoires de commande à proximité du process"
+        ]
+      },
+      "glass": {
+        "name": "Verre et ciment",
+        "summary": "Pyromètres conçus pour mesurer les surfaces de verre et le verre en fusion.",
+        "overview": "Thermomètres infrarouges avec des plages spectrales choisies pour le formage du verre, le verre flotté et le verre creux, ainsi que le ciment.",
+        "challenges": [
+          "Mesurer la surface ou le bain, selon la plage spectrale",
+          "Process chauds et continus où la mesure par contact est impossible"
+        ]
+      },
+      "food": {
+        "name": "Agroalimentaire et boissons",
+        "summary": "Température, humidité, enregistrement de la chaîne du froid et qualité de l’eau.",
+        "overview": "Température pendant la transformation des aliments, humidité en stockage, enregistrement de la chaîne du froid et qualité de l’eau dans la production d’aliments et de boissons.",
+        "challenges": [
+          "Enregistrer les conditions dans le temps pendant le stockage et le transport",
+          "Mesurer des matières organiques qui exigent des pyromètres à grande longueur d’onde",
+          "Contrôler le pH, la conductivité et l’oxygène dissous"
+        ]
+      },
+      "hvac": {
+        "name": "CVC et bâtiments",
+        "summary": "Débit d’air, humidité, confort et son pour la mise en service et l’équilibrage.",
+        "overview": "Mise en service du chauffage, de la ventilation et de la climatisation, des sorbonnes et des salles blanches, bruit et confort dans les bâtiments, et enregistrement des conditions dans un bâtiment.",
+        "challenges": [
+          "Traversées de gaines, diffuseurs et équilibrage aéraulique",
+          "Confort thermique et contrainte thermique en intérieur",
+          "Études d’acoustique du bâtiment"
+        ]
+      },
+      "research": {
+        "name": "Laboratoires et recherche",
+        "summary": "Sources d’étalonnage, enregistrement de données, mesure de la lumière et de l’eau.",
+        "overview": "Laboratoires d’étalonnage et vérification des pyromètres, enregistrement des mesures de laboratoire et recherche. Nos clients comptent des universités et le CSIRO.",
+        "challenges": [
+          "Vérifier les pyromètres et les caméras thermiques par rapport à une référence connue",
+          "Enregistrer automatiquement les mesures sur de longues périodes"
+        ]
+      },
+      "process": {
+        "name": "Usines de process",
+        "summary": "Afficheurs pour armoires de commande et terrain, ainsi que la température sur les lignes de production.",
+        "overview": "Afficheurs pour armoires de commande et instruments de terrain, ainsi que la mesure de température sur les lignes de plastique, de papier et de revêtement.",
+        "challenges": [
+          "Afficher en direct des mesures 4–20 mA là où aucune alimentation séparée n’est disponible",
+          "Alarmes et retransmission depuis les indicateurs de tableau",
+          "Température sans contact sur bandes en défilement et revêtements"
+        ]
+      },
+      "laser-processing": {
+        "name": "Traitement laser et fabrication additive",
+        "summary": "Pyromètres haute vitesse qui mesurent et régulent la température des procédés laser.",
+        "overview": "Intégrés à l’optique laser, des pyromètres haute vitesse mesurent la température du bain de fusion et régulent la puissance du laser en temps réel, pour la fabrication additive, le rechargement laser, la trempe, le brasage et le soudage des plastiques.",
+        "challenges": [
+          "Mesurer un bain de fusion petit et rapide à travers l’optique laser",
+          "Maintenir une température constante quand le procédé évolue"
+        ]
+      },
+      "water": {
+        "name": "Traitement de l’eau",
+        "summary": "pH, conductivité et oxygène dissous, du portable à l’en ligne.",
+        "overview": "Instruments portables, de paillasse et de process pour le pH, la conductivité et l’oxygène dissous.",
+        "challenges": [
+          "Choisir entre mesure portable, de paillasse et en ligne",
+          "Enregistrer la qualité de l’eau dans le temps"
+        ]
+      },
+      "environment": {
+        "name": "Environnement et agriculture",
+        "summary": "Stations météo, bruit environnemental et rayonnement solaire.",
+        "overview": "Stations météo pour l’agriculture et les sites solaires, surveillance du bruit environnemental et mesure du rayonnement solaire.",
+        "challenges": [
+          "Vent, pluie, rayonnement solaire, température et humidité sur des sites isolés",
+          "Surveillance du bruit environnemental"
+        ]
+      },
+      "ohs": {
+        "name": "Hygiène industrielle",
+        "summary": "Bruit et contrainte thermique au travail.",
+        "overview": "Bruit au travail et contrainte thermique des travailleurs mesurée avec des thermomètres à globe WBGT, en intérieur et en extérieur.",
+        "challenges": [
+          "Exposition au bruit professionnel",
+          "Contrainte thermique (WBGT) en intérieur et en extérieur"
+        ]
+      }
+    }
+  },
+  "categories": {
+    "infrared": {
+      "name": "Température infrarouge",
+      "desc": "Mesure de température sans contact pour les métaux, le verre, d’autres matériaux et les procédés laser, ainsi que des sources de référence pour vérifier les pyromètres."
+    },
+    "displays": {
+      "name": "Afficheurs et conditionnement de signal",
+      "desc": "Afficheurs qui montrent en direct les mesures des capteurs dans les usines, et appareils qui conditionnent les signaux des capteurs pour d’autres équipements."
+    },
+    "environmental": {
+      "name": "Environnement et CVC",
+      "desc": "Instruments pour le débit d’air, l’humidité, le son, la lumière, la chaleur au travail et la météo, ainsi que des enregistreurs qui consignent les mesures dans le temps."
+    },
+    "calibration": {
+      "name": "Équipements d’étalonnage",
+      "desc": "Calibrateurs de température pour vérifier les thermomètres et les capteurs de température."
+    },
+    "water": {
+      "name": "Analyse de l’eau",
+      "desc": "Instruments qui contrôlent la qualité de l’eau (pH, conductivité et oxygène dissous), portables, de paillasse ou montés sur canalisation."
+    }
+  },
+  "brands": {
+    "sensortherm": {
+      "where": "Allemagne",
+      "does": "Technologie de mesure et de régulation infrarouge, développée et fabriquée à Steinbach, en Allemagne. Spécialiste des pyromètres numériques rapides, avec plus de 30 ans d’expérience.",
+      "range": [
+        "Pyromètres fixes et portables, monochromatiques et bichromatiques",
+        "Pyromètres haute vitesse et régulation de puissance laser",
+        "Scanners de température et scanners linéaires",
+        "Sources d’étalonnage et pyromètres étalons de transfert",
+        "Régulateurs PID, afficheurs et logiciels"
+      ]
+    },
+    "status": {
+      "where": "Royaume-Uni",
+      "does": "L’un des principaux fabricants mondiaux de transmetteurs de température, de conditionnement de signal, d’afficheurs numériques et de thermomètres.",
+      "range": [
+        "Transmetteurs de température",
+        "Conditionneurs de signal et amplificateurs à seuil",
+        "Indicateurs de tableau",
+        "Isolateurs de boucle",
+        "Thermomètres à pile",
+        "Indicateurs de boucle",
+        "Transmetteurs de pression",
+        "Alimentations sur rail DIN",
+        "Matériel de configuration"
+      ]
+    },
+    "senseca": {
+      "where": "Italie",
+      "does": "L’un des principaux fabricants mondiaux d’instruments portables et de process.",
+      "range": [
+        "Température et humidité relative",
+        "Pression",
+        "Vitesse d’air",
+        "Lumière",
+        "Niveaux sonores",
+        "pH",
+        "Conductivité",
+        "Oxygène dissous",
+        "CO",
+        "CO2"
+      ]
+    },
+    "giussani": {
+      "where": "Italie",
+      "does": "Équipements d’étalonnage de température et de pression, y compris les fours à bloc sec et les bains utilisés dans notre propre service d’étalonnage.",
+      "range": [
+        "Systèmes d’étalonnage de température",
+        "Systèmes d’étalonnage de pression"
+      ]
+    }
+  },
+  "products": {
+    "title": "Produits et services",
+    "intro": "Des solutions de mesure, pas de simples listes de produits : capteurs, afficheurs, conditionnement de signal et étalonnage, choisis pour fonctionner ensemble et appuyés par une assistance applicative.",
+    "groupsTitle": "Groupes de produits et services",
+    "catalogueTitle": "Catalogue produits",
+    "catalogueText": "Toutes les gammes publiées par W&B, avec le fabricant correspondant.",
+    "filters": {
+      "label": "Filtrer les produits",
+      "category": "Catégorie",
+      "brand": "Fabricant",
+      "all": "Tous",
+      "search": "Filtrer par mot-clé",
+      "clear": "Effacer les filtres",
+      "showing": "{n} gammes sur {total}",
+      "none": "Aucune gamme ne correspond à ces filtres."
+    },
+    "labels": {
+      "overview": "Vue d’ensemble",
+      "plain": "En termes simples",
+      "specs": "Caractéristiques techniques",
+      "measures": "Mesure",
+      "range": "Plage de mesure",
+      "applications": "Applications",
+      "configurations": "Configurations disponibles",
+      "manufacturer": "Informations fabricant",
+      "datasheet": "Fiche technique",
+      "related": "Produits associés",
+      "relatedText": "Instruments couramment utilisés avec cette gamme.",
+      "chain": "Compléter la chaîne de mesure",
+      "chainText": "Les groupes auxquels appartient cette gamme, et l’étape suivante de la chaîne.",
+      "enquireTitle": "Se renseigner sur cette gamme",
+      "enquireText": "Indiquez-nous l’application et nous vous recommanderons le bon modèle et vous enverrons sa fiche technique.",
+      "enquire": "Demander des informations sur cette gamme",
+      "requestDatasheet": "Demander la fiche technique",
+      "visitManufacturer": "Visiter le fabricant",
+      "country": "Basé en"
+    },
+    "specsNone": "Les caractéristiques varient selon le modèle et ne sont pas encore publiées sur ce site. Demandez-nous la fiche technique du modèle exact dont vous avez besoin.",
+    "rangeNone": "La plage de mesure dépend du modèle. Nous la confirmerons avec la fiche technique.",
+    "configNone": "De nombreux produits peuvent être adaptés à des applications spécifiques. Nous vous confirmerons les options disponibles pour cette gamme.",
+    "datasheetNone": "Aucune fiche technique n’est encore publiée ici. Nous vous enverrons la fiche du fabricant sur demande.",
+    "items": {
+      "acoustical-measurement": {
+        "name": "Mesure acoustique",
+        "desc": "Sonomètres et analyseurs acoustiques pour le bruit au travail, l’environnement et l’acoustique du bâtiment.",
+        "plain": "Mesure le niveau de bruit d’un lieu, par exemple au travail, dans l’environnement ou à l’intérieur des bâtiments.",
+        "measures": "Niveaux sonores",
+        "uses": "Bruit professionnel, surveillance environnementale, acoustique du bâtiment"
+      },
+      "air-velocity-measurement": {
+        "name": "Mesure de la vitesse d’air",
+        "desc": "Sondes à fil chaud, à hélice et de Pitot avec appareils portables pour les traversées de gaines, les diffuseurs et l’équilibrage aéraulique.",
+        "plain": "Mesure la vitesse de l’air, par exemple dans les gaines et bouches de climatisation, pour régler et équilibrer les installations.",
+        "measures": "Vitesse d’air, débit d’air",
+        "uses": "Mise en service CVC, sorbonnes, salles blanches"
+      },
+      "data-logging": {
+        "name": "Enregistrement de données",
+        "desc": "Enregistreurs autonomes et sans fil pour la température, l’humidité et d’autres paramètres, avec surveillance via le web.",
+        "plain": "Petits appareils qui enregistrent automatiquement des mesures comme la température et l’humidité, consultables ensuite ou en ligne.",
+        "measures": "Température, humidité, pression et plus",
+        "uses": "Chaîne du froid, entrepôts, laboratoires, bâtiments"
+      },
+      "humidity-measurement": {
+        "name": "Mesure de l’humidité",
+        "desc": "Thermo-hygromètres portables et sondes pour l’humidité relative, le point de rosée et la température.",
+        "plain": "Mesure la quantité d’humidité dans l’air, ainsi que la température.",
+        "measures": "Température et humidité relative",
+        "uses": "CVC, stockage alimentaire, séchage industriel, laboratoires"
+      },
+      "light-measurement": {
+        "name": "Mesure de la lumière",
+        "desc": "Instruments photométriques et radiométriques pour l’éclairement, l’irradiance et le rayonnement solaire.",
+        "plain": "Mesure l’intensité de la lumière, y compris celle du soleil, pour contrôler l’éclairage et pour les travaux sur l’énergie solaire.",
+        "measures": "Lumière",
+        "uses": "Études d’éclairage, énergie solaire, recherche"
+      },
+      "meteorological": {
+        "name": "Applications météorologiques",
+        "desc": "Stations météo et capteurs pour le vent, la pluie, le rayonnement solaire, la température et l’humidité.",
+        "plain": "Stations météo et capteurs qui mesurent le vent, la pluie, l’ensoleillement, la température et l’humidité.",
+        "measures": "Vent, pluie, rayonnement, température, humidité",
+        "uses": "Agriculture, surveillance environnementale, sites solaires"
+      },
+      "microclimate": {
+        "name": "Microclimat",
+        "desc": "Analyseurs de contrainte thermique et de confort thermique, y compris thermomètres à globe WBGT, pour les lieux de travail intérieurs et extérieurs.",
+        "plain": "Mesure la chaleur et le confort d’un lieu de travail pour les personnes, y compris le risque de contrainte thermique, en intérieur et en extérieur.",
+        "measures": "WBGT, indices de confort thermique",
+        "uses": "Hygiène industrielle, études de confort des bâtiments"
+      },
+      "ir-temperature": {
+        "name": "Pyromètres infrarouges",
+        "desc": "Pyromètres Sensortherm fixes et portables (METIS, CAPELLA et FELIS) à traitement numérique du signal, pour la mesure de température sans contact sur des cibles chaudes, en mouvement ou inaccessibles.",
+        "plain": "Thermomètres qui mesurent la température à distance grâce à la lumière infrarouge, sans toucher l’objet. Utiles lorsqu’il est trop chaud, en mouvement ou difficile d’accès.",
+        "measures": "Température sans contact",
+        "uses": "Acier, fonderies, chauffage par induction, traitement laser, recherche"
+      },
+      "ir-glass": {
+        "name": "Pyromètres pour applications verrières",
+        "desc": "Pyromètres pour les procédés verriers comme la mesure de la goutte de verre (paraison), avec la plage spectrale choisie pour l’application.",
+        "plain": "Thermomètres infrarouges conçus spécialement pour mesurer la température du verre, y compris en fusion.",
+        "measures": "Température sans contact",
+        "uses": "Mesure de la goutte de verre, verre creux, formage du verre"
+      },
+      "ir-metal": {
+        "name": "Pyromètres pour métaux (bichromatiques et courte longueur d’onde)",
+        "desc": "Pyromètres monochromatiques à courte longueur d’onde et bichromatiques (à rapport) pour les métaux, dont l’émissivité est faible et varie en cours de traitement. Les modèles bichromatiques continuent de mesurer à travers la poussière, la vapeur, la fumée et les hublots encrassés.",
+        "plain": "Thermomètres infrarouges conçus pour les métaux, difficiles à mesurer car leurs surfaces brillantes réfléchissent la chaleur de façon variable.",
+        "measures": "Température sans contact",
+        "uses": "Laminoirs, coulée continue, jets de coulée, forgeage, trempe par induction"
+      },
+      "ir-non-metal": {
+        "name": "Pyromètres pour non-métaux et basses températures",
+        "desc": "Pyromètres monochromatiques compacts FELIS et METIS à plages spectrales de plus grande longueur d’onde, mesurant dès 50 °C, pour les non-métaux et les procédés plus froids.",
+        "plain": "Thermomètres infrarouges pour les matériaux autres que le métal et pour les procédés plus froids, dès 50 °C.",
+        "measures": "Température sans contact",
+        "uses": "Préchauffage par induction, brasage, soudage des plastiques, revêtements"
+      },
+      "ir-high-speed": {
+        "name": "Pyromètres haute vitesse et régulation des procédés laser",
+        "desc": "Pyromètres haute vitesse HELIOS H4 et METIS H3, avec des temps d’exposition jusqu’à 40 µs, qui mesurent et régulent la température en même temps, y compris la puissance du laser.",
+        "plain": "Thermomètres infrarouges très rapides qui peuvent aussi ajuster un laser ou un chauffage en temps réel pour maintenir la bonne température.",
+        "measures": "Température sans contact, avec régulation intégrée",
+        "uses": "Fabrication additive, rechargement laser, trempe et brasage laser, soudage laser des plastiques"
+      },
+      "ir-calibration-sources": {
+        "name": "Sources d’étalonnage infrarouge",
+        "desc": "La source d’étalonnage corps noir Sensortherm CS1500N (50 à 1500 °C, ouverture de 40 mm), la source portable HE1200N et les pyromètres étalons de transfert DIADEM, pour vérifier et étalonner les pyromètres et les caméras thermiques.",
+        "plain": "Fours de référence qui produisent une température connue et stable, utilisés pour vérifier que les thermomètres infrarouges et les caméras thermiques mesurent juste.",
+        "measures": "Température de rayonnement de référence",
+        "uses": "Laboratoires d’étalonnage, vérification des pyromètres"
+      },
+      "digital-displays": {
+        "name": "Afficheurs numériques",
+        "desc": "Indicateurs de tableau et indicateurs numériques pour signaux de process, avec relais d’alarme et options de retransmission.",
+        "plain": "Écrans pour armoires de commande qui affichent en direct les mesures des capteurs et peuvent déclencher des alarmes ou transmettre la mesure à d’autres équipements.",
+        "measures": "Signaux de process (mA, V, température)",
+        "uses": "Armoires de commande, usines de process"
+      },
+      "loop-powered-displays": {
+        "name": "Afficheurs alimentés par la boucle",
+        "desc": "Indicateurs alimentés par la boucle 4–20 mA, sans alimentation séparée au point de mesure.",
+        "plain": "Afficheurs qui fonctionnent sur le câblage de signal du capteur lui-même, sans alimentation séparée à l’endroit où ils sont installés.",
+        "measures": "Signaux de boucle 4–20 mA",
+        "uses": "Indication terrain sur transmetteurs, afficheurs déportés"
+      },
+      "water-analysis": {
+        "name": "Analyse de l’eau",
+        "desc": "Instruments portables, de paillasse et de process pour le pH, la conductivité et l’oxygène dissous.",
+        "plain": "Instruments qui contrôlent la qualité de l’eau : son acidité (pH), sa capacité à conduire l’électricité (conductivité) et la quantité d’oxygène qu’elle contient (oxygène dissous).",
+        "measures": "pH, conductivité, oxygène dissous",
+        "uses": "Traitement de l’eau, agroalimentaire et boissons, laboratoires"
+      },
+      "ir-scanners": {
+        "name": "Scanners de température",
+        "desc": "Scanners GALAXY qui relèvent jusqu’à 1 600 points de mesure sur un angle de détection allant jusqu’à 90°, évaluent séparément 16 zones de mesure et produisent des images thermographiques 2D en mode bichromatique.",
+        "plain": "Scanners qui balaient le produit avec un pyromètre pour cartographier sa température sous forme de profil ou d’image, au lieu de mesurer un seul point.",
+        "measures": "Profils de température, images thermographiques 2D",
+        "uses": "Coulée continue, laminoirs, brames d’acier"
+      },
+      "ir-controllers": {
+        "name": "Régulateurs pour pyromètres et composants système",
+        "desc": "Régulateurs PID programmables REGULUS optimisés pour les pyromètres, avec des temps d’échantillonnage jusqu’à 100 µs et une grandeur réglante directe 0–10 V, ainsi que l’afficheur numérique IF et le logiciel SensorTools.",
+        "plain": "Régulateurs qui utilisent la mesure du pyromètre pour ajuster directement le chauffage, ainsi qu’afficheurs et logiciels pour paramétrer le pyromètre et analyser ses mesures.",
+        "measures": "Signaux de pyromètre, sortie de régulation 0–10 V",
+        "uses": "Chauffage par induction, brasage, traitement laser"
+      },
+      "temperature-transmitters": {
+        "name": "Transmetteurs de température",
+        "desc": "Transmetteurs de température Status Instruments, qui convertissent le signal d’un capteur de température en signal de process pour votre système de commande.",
+        "plain": "Petits appareils qui reçoivent le signal d’un capteur de température et le transforment en signal standard lisible par les systèmes de commande et les afficheurs.",
+        "measures": "Température (depuis un capteur raccordé)",
+        "uses": ""
+      },
+      "signal-conditioners": {
+        "name": "Conditionneurs de signal",
+        "desc": "Conditionneurs de signal et amplificateurs à seuil Status Instruments.",
+        "plain": "Appareils qui convertissent, isolent ou contrôlent le signal d’un capteur pour d’autres équipements, et peuvent commuter une sortie lorsqu’un seuil est atteint.",
+        "measures": "Signaux de process",
+        "uses": ""
+      },
+      "temperature-gauges": {
+        "name": "Indicateurs de température (numériques)",
+        "desc": "Indicateurs de température numériques Status Instruments.",
+        "plain": "Indicateurs numériques qui affichent la température directement au point de mesure.",
+        "measures": "Température",
+        "uses": ""
+      },
+      "handheld-thermometers": {
+        "name": "Température (thermomètres portables)",
+        "desc": "Thermomètres portables Senseca (Delta OHM).",
+        "plain": "Thermomètres portables avec sondes pour des contrôles ponctuels de température.",
+        "measures": "Température",
+        "uses": ""
+      },
+      "pressure-measurement": {
+        "name": "Mesure de pression",
+        "desc": "Instruments de mesure de pression Senseca (Delta OHM).",
+        "plain": "Instruments qui mesurent la pression.",
+        "measures": "Pression",
+        "uses": ""
+      },
+      "thermal-comfort": {
+        "name": "Confort thermique",
+        "desc": "Instruments de confort thermique Senseca (Delta OHM).",
+        "plain": "Instruments qui mesurent si la température et les conditions de l’air d’un espace sont confortables pour les personnes.",
+        "measures": "Indices de confort thermique",
+        "uses": "Études de confort des bâtiments"
+      },
+      "dry-block-calibrators": {
+        "name": "Calibrateurs thermostatiques (fours à bloc sec)",
+        "desc": "Calibrateurs de température à bloc sec Giussani, du même type que ceux utilisés dans notre service d’étalonnage.",
+        "plain": "Un bloc chauffé qui maintient une température connue et stable, utilisé pour vérifier que les thermomètres et les capteurs de température mesurent juste.",
+        "measures": "Température de référence",
+        "uses": "Étalonnage de température, vérification des capteurs"
+      }
+    }
+  },
+  "solutions": {
+    "labels": {
+      "products": "Gammes de produits",
+      "ranges": "Issu des gammes de nos partenaires",
+      "rangesText": "Gammes de fabricants publiées que W&B fournit. Demandez-nous les modèles et les fiches techniques.",
+      "services": "Services",
+      "next": "Étape suivante de la chaîne de mesure",
+      "pendingTitle": "Détails de la gamme à confirmer",
+      "noProducts": "Aucune page produit n’est encore publiée pour ce groupe."
+    },
+    "items": {
+      "temperature-measurement": {
+        "name": "Mesure de température",
+        "short": "Température avec et sans contact, enregistrement et vérification.",
+        "intro": "La mesure de température issue des gammes partenaires de W&B : pyromètres infrarouges pour cibles chaudes, en mouvement ou inaccessibles, sondes de température et d’humidité, enregistreurs, transmetteurs de température, thermomètres et équipements d’étalonnage pour les vérifier.",
+        "note": "Les thermocouples et autres capteurs à contact ne figurent pas encore parmi les gammes W&B sur ce site. Interrogez notre équipe sur les capteurs de température à contact adaptés à votre application."
+      },
+      "rtd-temperature-sensors": {
+        "name": "RTD et capteurs de température",
+        "short": "Capteurs de température à contact et transmetteurs qui les lisent.",
+        "intro": "Mesure de température par contact avec les transmetteurs, thermomètres, sondes et enregistreurs des gammes partenaires de W&B.",
+        "note": "W&B n’a pas encore publié sa gamme de RTD et de capteurs de température sur ce site. Les gammes associées ci-dessous sont publiées ; contactez notre équipe pour les modèles et caractéristiques RTD."
+      },
+      "infrared-thermometry": {
+        "name": "Thermométrie infrarouge",
+        "short": "Pyromètres, scanners et sources d’étalonnage Sensortherm.",
+        "intro": "Pyromètres infrarouges fixes et portables Sensortherm, avec des plages spectrales pour les métaux, le verre et les non-métaux, des modèles haute vitesse pour les procédés laser, des scanners pour les profils de température et des sources d’étalonnage pour les vérifier.",
+        "note": ""
+      },
+      "displays": {
+        "name": "Afficheurs",
+        "short": "Indicateurs de tableau et alimentés par la boucle.",
+        "intro": "Indicateurs de tableau, indicateurs numériques et afficheurs alimentés par la boucle Status Instruments, qui affichent les mesures de process en direct avec options d’alarme et de retransmission.",
+        "note": ""
+      },
+      "signal-conditioning": {
+        "name": "Conditionnement de signal",
+        "short": "Transmetteurs, conditionneurs, isolateurs et alimentations.",
+        "intro": "Transmetteurs de température, conditionneurs de signal et amplificateurs à seuil, isolateurs de boucle et alimentations sur rail DIN Status Instruments, pour que les signaux des capteurs arrivent à votre système de commande sous la forme voulue.",
+        "note": ""
+      },
+      "calibration-testing": {
+        "name": "Étalonnage et essais",
+        "short": "Étalonnage traçable, équipements d’essai et contrôles avant livraison.",
+        "intro": "Étalonnage traçable dans notre atelier de Kilsyth, équipements d’étalonnage Giussani et Sensortherm, et test avant livraison à 100 % de chaque instrument que nous fournissons.",
+        "note": ""
+      },
+      "environmental-monitoring": {
+        "name": "Surveillance environnementale",
+        "short": "Air, humidité, son, lumière, contrainte thermique et météo.",
+        "intro": "Mesure environnementale et du bâtiment par Senseca (Delta OHM) : vitesse d’air, température et humidité, niveaux sonores, lumière, confort et contrainte thermiques, stations météo et enregistreurs qui consignent les mesures dans le temps, avec étalonnage traçable dans notre atelier de Kilsyth.",
+        "note": ""
+      },
+      "measurement-accessories": {
+        "name": "Accessoires de mesure",
+        "short": "Alimentations, matériel de configuration et accessoires.",
+        "intro": "Accessoires qui complètent une installation, comme les alimentations sur rail DIN et le matériel de configuration.",
+        "note": "W&B n’a pas encore publié de gamme complète d’accessoires sur ce site. Contactez notre équipe pour les sondes, fixations et autres accessoires d’un instrument précis."
+      }
+    }
+  },
+  "services": {
+    "items": {
+      "calibration": {
+        "name": "Services d’étalonnage",
+        "text": "Un service rapide et économique d’étalonnages traçables en température, pression et humidité, y compris les pyromètres infrarouges sans contact et la thermographie jusqu’à 1700 °C, à l’aide d’instruments étalonnés par la N.A.T.A. et le National Measurement Institute.",
+        "cta": "Réserver un étalonnage"
+      },
+      "application-support": {
+        "name": "Assistance technique applicative",
+        "text": "Notre équipe hautement qualifiée propose des solutions pour les applications de mesure les plus complexes et exigeantes, du traitement des minéraux et des métaux et de l’agroalimentaire au CVC et à la R&D.",
+        "cta": "Parlons de votre application"
+      },
+      "selection": {
+        "name": "Choix de l’instrument",
+        "text": "Dites-nous ce que vous devez mesurer. Notre équipe technique, forte de plus de 75 ans d’expérience cumulée, vous aide à choisir le bon instrument.",
+        "cta": "Demander conseil"
+      },
+      "pre-delivery": {
+        "name": "Test avant livraison",
+        "text": "Test avant livraison à 100 % et contrôle d’étalonnage selon les spécifications du fabricant, pour utiliser votre instrument immédiatement en toute confiance.",
+        "cta": "Demander un devis"
+      },
+      "customisation": {
+        "name": "Personnalisation des produits",
+        "text": "De nombreux produits peuvent être adaptés à des applications spécifiques, pour que l’instrument corresponde à votre usage et à son lieu d’installation.",
+        "cta": "Se renseigner sur la personnalisation"
+      }
+    },
+    "calibration": {
+      "title": "Périmètre d’étalonnage",
+      "mra": "Nous pouvons aussi proposer un étalonnage équivalent N.A.T.A. (via des accords de reconnaissance mutuelle) pour les mesures de vitesse d’air, acoustiques et lumineuses.",
+      "equipment": "Fours à bloc sec et bains (Giussani), fours d’étalonnage infrarouge corps noir et l’enregistreur multifonction HD31 (Delta OHM).",
+      "brands": "Les produits de nos partenaires et de nombreuses autres marques, avec traçabilité.",
+      "where": "Dans notre atelier de Kilsyth, ou sur site.",
+      "labels": {
+        "equipment": "Équipements de référence",
+        "brands": "Marques",
+        "where": "Où"
+      }
+    },
+    "process": [
+      {
+        "h": "Sélection",
+        "p": "Notre équipe, forte de plus de 75 ans d’expérience cumulée, vous aide à choisir le bon instrument."
+      },
+      {
+        "h": "Essais",
+        "p": "Chaque instrument est testé dans notre atelier de Kilsyth avant de partir."
+      },
+      {
+        "h": "Étalonnage",
+        "p": "Contrôlé selon les spécifications du fabricant, avec un certificat traçable le cas échéant."
+      },
+      {
+        "h": "Personnalisation",
+        "p": "De nombreux produits peuvent être adaptés à votre usage et à leur lieu d’installation."
+      },
+      {
+        "h": "Expédition",
+        "p": "Les articles en stock sont expédiés sous 24 heures après votre commande."
+      }
+    ],
+    "processTitle": "De la demande à l’expédition"
+  },
+  "businesses": {
+    "title": "Nos entreprises",
+    "intro": "Quatre entreprises d’ingénierie et de fabrication : Forge, Fonderie, Débit et Vannes. Chacune est exploitée par Metaval Engineering, une marque distincte, et les informations de ces pages proviennent des sites web de Metaval.",
+    "sourceNote": "Les informations de cette page proviennent de {source}. Metaval Engineering est une marque distincte de W&B Instruments.",
+    "imageNote": "Image issue du site web de Metaval.",
+    "visit": "Visiter Metaval Engineering",
+    "labels": {
+      "overview": "Présentation de l’activité",
+      "products": "Produits et capacités",
+      "process": "Fabrication et procédés",
+      "materials": "Matériaux",
+      "quality": "Qualité et essais",
+      "certifications": "Certifications indiquées par la source",
+      "applications": "Applications",
+      "related": "Offres associées",
+      "relatedInstruments": "Instrumentation W&B associée",
+      "enquire": "Se renseigner sur {name}",
+      "enquireText": "Envoyez-nous vos besoins et nous vous mettrons en relation avec la bonne équipe."
+    },
+    "items": {
+      "forging": {
+        "name": "Forge",
+        "short": "Pièces forgées à haute résistance en aciers au carbone, alliés, inoxydables, duplex et nuances spéciales.",
+        "readingLabel": "Forgeage en une seule pièce, ou 2200 mm de diamètre",
+        "overview": "La division Forge produit des pièces forgées à haute résistance en acier au carbone, en acier allié et en matériaux spéciaux, y compris des pièces de grande taille pour les vannes haute pression.",
+        "products": [
+          "Brides : à collerette, à emboîter, pleines, à emboîtement soudé, tournantes et taraudées",
+          "Joints annulaires (RTJ)",
+          "Weldolets, sockolets et olets",
+          "Plaques tubulaires",
+          "Joints à lunette",
+          "Entretoises et palettes",
+          "Piquages autorenforcés",
+          "Collets à souder",
+          "Anneaux"
+        ],
+        "process": [
+          "Forge",
+          "Traitement thermique",
+          "Usinage CNC",
+          "Essais"
+        ],
+        "processNote": "Chaque étape est gérée en interne, sous un même toit.",
+        "materials": [
+          "Acier au carbone",
+          "Acier allié",
+          "Acier inoxydable",
+          "Duplex",
+          "Matériaux spéciaux"
+        ],
+        "quality": [
+          "Contrôle CND ASNT niveau III",
+          "UT, MPI et LPT",
+          "Essais de traction et de résilience"
+        ],
+        "certifications": [
+          "ISO",
+          "PED/CE",
+          "NABL",
+          "Fire Safe"
+        ],
+        "applications": [
+          "Raffineries pétrolières et gazières",
+          "Production d’énergie",
+          "Énergie nucléaire",
+          "Usines d’hydrogène",
+          "Industrie chimique",
+          "Engrais",
+          "Mines",
+          "Eau et assainissement",
+          "Agroalimentaire, boissons et produits laitiers",
+          "Pharmaceutique",
+          "Aérospatial",
+          "Défense",
+          "Ferroviaire",
+          "Sucre",
+          "Agriculture"
+        ]
+      },
+      "casting": {
+        "name": "Fonderie",
+        "short": "Moulage au sable, à la cire perdue et sous pression en alliages ferreux et non ferreux.",
+        "readingLabel": "Capacité de moulage au sable par pièce",
+        "overview": "L’activité Fonderie (Metaval Alloys) produit des pièces moulées au sable, à la cire perdue et sous pression en alliages ferreux et non ferreux, avec une maîtrise complète de la production en interne.",
+        "products": [
+          "Corps de vanne",
+          "Corps de pompe et roues",
+          "Pièces de machines et outillage industriel",
+          "Plateaux de four et montages résistant à la chaleur",
+          "Composants hydrauliques",
+          "Engrenages, bagues, roulements et carters",
+          "Soupapes et culasses",
+          "Pièces de turbines à gaz, tuyères et aubes",
+          "Pièces résistantes à la corrosion",
+          "Blocs de matrices"
+        ],
+        "process": [
+          "Simulation de coulée",
+          "Atelier de modelage (conventionnel et CNC/VMC)",
+          "Moulage au sable, à la cire perdue ou sous pression",
+          "Traitement thermique",
+          "Usinage et traitement de surface",
+          "Essais et contrôles"
+        ],
+        "processNote": "Le moulage à la cire perdue convient aux formes complexes qui exigent peu d’usinage et un état de surface supérieur. Le moulage en carapace et le moulage par injection de métal (MIM) sont également proposés.",
+        "materials": [
+          "Alliages ferreux",
+          "Alliages non ferreux"
+        ],
+        "quality": [
+          "Analyse PMI et spectrométrique",
+          "LPT, UT, MPT et radiographie (rayons X)",
+          "Essais de traction, de résilience et de dureté",
+          "Contrôle dimensionnel et analyse de microstructure"
+        ],
+        "certifications": [
+          "ISO 9001:2015",
+          "ISO 14001:2015",
+          "ISO 45001:2018"
+        ],
+        "applications": [
+          "Équipements industriels",
+          "Automobile et transports",
+          "Pétrole et gaz",
+          "Production d’énergie",
+          "Aérospatial et défense",
+          "Ferroviaire",
+          "Construction",
+          "Électronique",
+          "Biens de consommation"
+        ]
+      },
+      "flow": {
+        "name": "Débit",
+        "short": "Éléments et débitmètres de 0,5\" à 150\".",
+        "readingLabel": "Tailles des produits de débit",
+        "overview": "La division Mesure de débit fournit des débitmètres et des systèmes de mesure pour la surveillance et la régulation des fluides, l’optimisation des procédés et la conformité aux normes, avec un laboratoire d’étalonnage de débit accrédité NABL selon l’ISO 17025.",
+        "products": [
+          "Diaphragmes : concentriques, excentriques, segmentaires, coniques, à quart de cercle, multitrous et de restriction",
+          "Ensembles à diaphragme et manchettes de mesure intégrées",
+          "Anneaux à diaphragme à montage direct",
+          "Tuyères : à grand rayon, ISA-1932 et PTC-6",
+          "V-Cone (Meta-Cone), montage direct et déporté",
+          "Tubes de Pitot moyenneurs (Metabar)",
+          "Venturis : bidirectionnels, mécano-soudés, entièrement usinés, à double enveloppe vapeur et rectangulaires",
+          "Débitmètres à coin",
+          "Chambres porte-diaphragme, simples et doubles",
+          "Débitmètres électromagnétiques"
+        ],
+        "process": [
+          "Forge et fonderie",
+          "Usinage",
+          "Assemblage",
+          "Étalonnage de débit en liquide",
+          "Essais"
+        ],
+        "processNote": "Metaval présente son laboratoire automatisé d’étalonnage de débit en liquide, piloté par SCADA, comme le plus grand d’Inde.",
+        "materials": [
+          "Acier au carbone",
+          "Acier inoxydable",
+          "Duplex",
+          "Monel",
+          "Inconel",
+          "Hastelloy"
+        ],
+        "quality": [
+          "Laboratoire de débit accrédité NABL selon l’ISO 17025",
+          "Essais pilotés par SCADA"
+        ],
+        "certifications": [
+          "ISO",
+          "PED/CE",
+          "NABL",
+          "Fire Safe"
+        ],
+        "applications": [
+          "Raffineries pétrolières et gazières",
+          "Production d’énergie",
+          "Énergie nucléaire",
+          "Usines d’hydrogène",
+          "Industrie chimique",
+          "Engrais",
+          "Eau et assainissement",
+          "Agroalimentaire, boissons et produits laitiers",
+          "Pharmaceutique",
+          "Mines",
+          "Sucre"
+        ]
+      },
+      "valves": {
+        "name": "Vannes",
+        "short": "Robinets-vannes, vannes à soupape, à boisseau sphérique, clapets et vannes papillon, de 0,5\" à 80\", jusqu’à #2500.",
+        "readingLabel": "Classe de pression, tailles de 0,5\" à 80\"",
+        "overview": "La division Vannes conçoit et fabrique des vannes d’isolement hautes performances, des filtres et des manifolds, avec des options fire safe et cryogéniques et des solutions sur mesure selon PED/CE, ISO et les spécifications du client.",
+        "products": [
+          "Robinets-vannes : à tige montante et non montante à siège métallique, et à siège souple",
+          "Vannes à soupape : d’angle, en Y, à joint de pression et en T",
+          "Vannes à boisseau sphérique : 2 voies, 3 voies, 4 voies et multivoies",
+          "Clapets : à battant, à double battant, à levée, à disque inclinable et à simple volet",
+          "Vannes papillon : concentriques, excentrées, à double et triple excentration",
+          "Filtres : en Y, duplex, à panier, à pot et en T",
+          "Manifolds : 2, 3 et 5 vannes",
+          "Vannes à pointeau, mono-brides et vannes de manomètre",
+          "Vannes à soupape cryogéniques et vannes fire safe 2 voies"
+        ],
+        "process": [
+          "Forge et fonderie",
+          "Usinage",
+          "Assemblage",
+          "Essais"
+        ],
+        "processNote": "Les vannes fire safe sont disponibles avec certification API 607, et des garnitures cryogéniques sont proposées.",
+        "materials": [],
+        "quality": [
+          "Certification fire safe API 607 disponible",
+          "Fabriquées selon PED/CE, ISO et les spécifications du client"
+        ],
+        "certifications": [
+          "ISO",
+          "PED/CE",
+          "NABL",
+          "Fire Safe"
+        ],
+        "applications": [
+          "Raffineries pétrolières et gazières",
+          "Production d’énergie",
+          "Énergie nucléaire",
+          "Usines d’hydrogène",
+          "Industrie chimique",
+          "Engrais",
+          "Mines",
+          "Eau et assainissement",
+          "Agroalimentaire, boissons et produits laitiers",
+          "Pharmaceutique",
+          "Aérospatial",
+          "Défense",
+          "Ferroviaire",
+          "Sucre",
+          "Agriculture"
+        ]
+      }
+    }
+  },
+  "news": {
+    "title": "Actualités et événements",
+    "intro": "Annonces de l’entreprise, lancements de produits, actualités du secteur, salons et analyses techniques de W&B Instruments.",
+    "all": "Tous",
+    "filterLabel": "Filtrer par catégorie",
+    "placeholderNote": "Les éléments marqués « Espace réservé » montrent la mise en page d’articles que W&B n’a pas encore fournis. Ce ne sont pas de vraies actualités.",
+    "publishedOn": "Publié initialement sur wandbinstruments.com.au",
+    "by": "Par {author}",
+    "articlePlaceholder": "Ceci est un article provisoire. W&B n’a pas encore fourni ce contenu : rien sur cette page ne doit être lu comme une actualité.",
+    "more": "Autres actualités et événements",
+    "categories": {
+      "announcement": "Annonce de l’entreprise",
+      "launch": "Lancement de produit",
+      "industry": "Actualité du secteur",
+      "exhibition": "Salon",
+      "technical": "Développement technique",
+      "insight": "Analyse technique",
+      "event": "Événement d’entreprise"
+    },
+    "items": {
+      "new-website-2019": {
+        "title": "Bienvenue sur notre nouveau site web !",
+        "excerpt": "Notre site rénové ajoute des liens directs vers de nouveaux produits et applications, dont des instruments sans fil et météorologiques.",
+        "body": [
+          "W&B Instruments a lancé son site web rénové, avec des liens directs vers de nouveaux produits et applications, dont des instruments sans fil et météorologiques.",
+          "À l’époque, W&B entamait sa 39e année d’activité et son service d’étalonnage sa 20e année, avec un étalonnage traçable sur site et en laboratoire pour la température, la pression et l’humidité.",
+          "Pour en savoir plus, contactez notre équipe."
+        ]
+      },
+      "company-announcement": {
+        "title": "Titre de l’annonce de l’entreprise",
+        "excerpt": "Un court résumé de l’annonce, rédigé par W&B, apparaîtra ici.",
+        "body": [
+          "Le corps de l’article apparaîtra ici une fois fourni par W&B."
+        ]
+      },
+      "product-launch": {
+        "title": "Titre du lancement de produit",
+        "excerpt": "Un court résumé de la nouvelle gamme ou du nouveau modèle, avec un lien vers sa page produit.",
+        "body": [
+          "Le corps de l’article apparaîtra ici une fois fourni par W&B."
+        ]
+      },
+      "exhibition": {
+        "title": "Titre du salon",
+        "excerpt": "Le nom du salon, les dates, le lieu et le numéro de stand apparaîtront ici.",
+        "body": [
+          "Le corps de l’article apparaîtra ici une fois fourni par W&B."
+        ]
+      },
+      "industry-update": {
+        "title": "Titre de l’actualité du secteur",
+        "excerpt": "Un court résumé de l’évolution du secteur et de ce qu’elle implique pour la mesure.",
+        "body": [
+          "Le corps de l’article apparaîtra ici une fois fourni par W&B."
+        ]
+      },
+      "technical-development": {
+        "title": "Titre du développement technique",
+        "excerpt": "Un court résumé du développement technique.",
+        "body": [
+          "Le corps de l’article apparaîtra ici une fois fourni par W&B."
+        ]
+      },
+      "engineering-insight": {
+        "title": "Titre de l’analyse technique",
+        "excerpt": "Un court résumé de l’analyse technique, par le technicien qui vous donne le chiffre.",
+        "body": [
+          "Le corps de l’article apparaîtra ici une fois fourni par W&B."
+        ]
+      },
+      "company-event": {
+        "title": "Titre de l’événement d’entreprise",
+        "excerpt": "Le nom, la date et les détails de l’événement apparaîtront ici.",
+        "body": [
+          "Le corps de l’article apparaîtra ici une fois fourni par W&B."
+        ]
+      }
+    }
+  },
+  "resources": {
+    "title": "Ressources",
+    "intro": "Documentation technique, fiches techniques produits, analyses et articles.",
+    "items": {
+      "documentation": {
+        "name": "Documentation technique",
+        "short": "Manuels et documentation des fabricants que nous représentons.",
+        "intro": "Les manuels et la documentation technique sont publiés par chaque fabricant. Utilisez les liens ci-dessous, ou demandez-nous et nous vous enverrons le document de votre modèle.",
+        "placeholder": "La bibliothèque de documentation technique de W&B sera ajoutée ici dès qu’elle sera fournie."
+      },
+      "datasheets": {
+        "name": "Fiches techniques produits",
+        "short": "Demandez la fiche technique de toute gamme que nous fournissons.",
+        "intro": "Les fiches techniques ne sont pas encore publiées sur ce site. Choisissez une gamme et nous vous enverrons la fiche du fabricant pour le modèle exact.",
+        "placeholder": ""
+      },
+      "insights": {
+        "name": "Analyses",
+        "short": "Termes de mesure expliqués, et analyses techniques.",
+        "intro": "Des explications simples des termes de mesure que nous utilisons chaque jour.",
+        "placeholder": "Les articles d’analyse seront ajoutés ici dès que W&B les fournira."
+      },
+      "articles": {
+        "name": "Articles techniques",
+        "short": "Notes d’application et articles techniques.",
+        "intro": "Notes d’application et articles techniques de notre équipe technique.",
+        "placeholder": "Aucun article technique n’a encore été fourni. Ils seront listés ici."
+      }
+    },
+    "glossaryTitle": "Termes de mesure expliqués",
+    "glossary": [
+      {
+        "t": "Étalonnage",
+        "d": "Comparer un instrument à une référence plus précise pour s’assurer que ses mesures sont justes, et l’ajuster si nécessaire."
+      },
+      {
+        "t": "Traçable",
+        "d": "La référence à laquelle nous comparons a elle-même été vérifiée, par une chaîne ininterrompue, jusqu’aux étalons nationaux de mesure."
+      },
+      {
+        "t": "N.A.T.A.",
+        "d": "La National Association of Testing Authorities, qui accrédite les laboratoires d’essais et d’étalonnage en Australie."
+      },
+      {
+        "t": "National Measurement Institute",
+        "d": "L’agence du gouvernement australien qui conserve les étalons nationaux de mesure de l’Australie."
+      },
+      {
+        "t": "Pyromètre",
+        "d": "Un thermomètre infrarouge : il mesure la température à distance sans toucher l’objet."
+      }
+    ],
+    "manufacturerDocs": "Documentation des fabricants",
+    "request": "Demander"
+  },
+  "support": {
+    "title": "Assistance",
+    "intro": "Parlez aux personnes qui connaissent l’instrument. Nous répondons à chaque demande sous 24 heures.",
+    "items": {
+      "technical": {
+        "name": "Assistance technique",
+        "text": "De l’aide pour un instrument que vous possédez déjà : configuration, mesures, pannes et étalonnage.",
+        "cta": "Obtenir une assistance technique"
+      },
+      "product": {
+        "name": "Demandes produits",
+        "text": "Prix, disponibilité, références et devis. Indiquez les références pour un traitement plus rapide de la commande.",
+        "cta": "Envoyer une demande produit"
+      },
+      "application": {
+        "name": "Assistance applicative",
+        "text": "Vous ne savez pas exactement ce qu’il vous faut ? Décrivez-nous votre process et nous vous recommanderons l’instrument et la configuration adaptés.",
+        "cta": "Parlons de votre application"
+      },
+      "team": {
+        "name": "Contacter notre équipe",
+        "text": "Appelez-nous, écrivez-nous ou rendez-nous visite à Kilsyth.",
+        "cta": "Coordonnées"
+      }
+    }
+  },
+  "about": {
+    "title": "À propos de W&B Instruments",
+    "intro": "Une mesure fiable, par des gens qui connaissent l’instrument.",
+    "sections": {
+      "overview": "Présentation de l’entreprise",
+      "history": "Historique de l’entreprise",
+      "purpose": "Notre raison d’être",
+      "values": "Valeurs de la marque",
+      "expertise": "Expertise technique",
+      "partners": "Partenariats de marques",
+      "capabilities": "Capacités de mesure",
+      "support": "Assistance applicative",
+      "quality": "Qualité et certification",
+      "why": "Pourquoi choisir W&B"
+    },
+    "overview": [
+      "Depuis 38 ans, W&B Instruments fournit au marché australien des instruments portables et de process parmi les meilleurs au monde, issus de quelques-uns des plus grands fournisseurs mondiaux.",
+      "Nos clients vont de nombreuses grandes sociétés cotées australiennes, universités et le CSIRO aux plus petits fabricants."
+    ],
+    "history": [
+      "W&B Instruments sert le marché australien depuis 38 ans.",
+      "En mai 2019, W&B entamait sa 39e année d’activité et son service d’étalonnage sa 20e année."
+    ],
+    "historyPlaceholder": "Un historique détaillé, avec la date de création et les grandes étapes, sera ajouté dès que W&B l’aura fourni.",
+    "purpose": "Faire en sorte que chaque mesure sur laquelle nos clients s’appuient soit une mesure fiable. Nous fournissons le bon instrument pour l’application, le testons avant qu’il ne parte, l’étalonnons avec traçabilité et restons au téléphone jusqu’à ce qu’il mesure juste.",
+    "positioning": "Mesure de précision. Instrumentation experte. Étalonnage de confiance.",
+    "supportingStatement": "Instruments de mesure industriels, expertise technique spécialisée et assistance fiable en étalonnage pour l’industrie.",
+    "values": [
+      {
+        "h": "Précis",
+        "p": "Nous donnons le chiffre, l’unité et la norme qui le fonde."
+      },
+      {
+        "h": "Fiables",
+        "p": "Chaque instrument est testé avant de partir."
+      },
+      {
+        "h": "Experts",
+        "p": "Une équipe technique qui comprend l’application, pas seulement la référence produit."
+      },
+      {
+        "h": "Dynamiques",
+        "p": "Des réponses rapides et des expéditions rapides."
+      },
+      {
+        "h": "Proches",
+        "p": "Basés au Victoria, nous fournissons et accompagnons des clients dans toute l’Australie."
+      }
+    ],
+    "expertise": "Forte de plus de 75 ans d’expertise technique cumulée, notre équipe hautement qualifiée propose des solutions pour les applications de mesure les plus complexes et exigeantes, du traitement des minéraux et des métaux et de l’agroalimentaire au CVC et à la R&D.",
+    "capabilitiesText": "Grandeurs mesurées dans les gammes de nos partenaires :",
+    "capabilities": [
+      "Température",
+      "Pression",
+      "Humidité",
+      "Vitesse d’air",
+      "Son",
+      "Lumière",
+      "pH et conductivité",
+      "Oxygène dissous",
+      "Infrarouge",
+      "Étalonnage"
+    ],
+    "supportText": "Du choix du capteur à sa configuration, nous accompagnons les applications de mesure complexes et exigeantes, et nous garantissons une réponse à votre demande sous 24 heures.",
+    "quality": [
+      {
+        "h": "Certifiés ISO 9001:2015",
+        "p": "W&B Instruments et ses entreprises partenaires sont toutes certifiées selon la norme de management de la qualité ISO 9001:2015 (certificat FS604761)."
+      },
+      {
+        "h": "Test avant livraison à 100 %",
+        "p": "Chaque instrument est testé avant expédition."
+      },
+      {
+        "h": "Contrôle d’étalonnage",
+        "p": "Chaque instrument est contrôlé selon les spécifications du fabricant avant livraison."
+      },
+      {
+        "h": "Certificats traçables",
+        "p": "Les certificats d’étalonnage traçables sont fournis en standard le cas échéant."
+      }
+    ],
+    "certificateAlt": "Marque de certification BSI ISO 9001:2015, certificat FS604761",
+    "certificatePending": "Le PDF du certificat sera fourni.",
+    "why": [
+      {
+        "h": "Expertise technique",
+        "p": "Plus de 75 ans d’expertise technique cumulée, du choix du bon capteur à sa configuration."
+      },
+      {
+        "h": "Assurance qualité",
+        "p": "W&B Instruments et ses entreprises partenaires sont toutes certifiées ISO 9001:2015."
+      },
+      {
+        "h": "Test avant livraison",
+        "p": "Test avant livraison à 100 % et contrôle d’étalonnage selon les spécifications du fabricant."
+      },
+      {
+        "h": "Expédition rapide",
+        "p": "Expédition sous 24 heures après votre commande pour les articles en stock."
+      },
+      {
+        "h": "Services d’étalonnage",
+        "p": "Étalonnage interne avec traçabilité pour les produits de nos partenaires et de nombreuses autres marques."
+      },
+      {
+        "h": "Personnalisation des produits",
+        "p": "De nombreux produits peuvent être adaptés à des applications spécifiques."
+      }
+    ]
+  },
+  "careers": {
+    "title": "Carrières",
+    "intro": "Travaillez avec des gens qui comprennent la mesure.",
+    "sections": {
+      "working": "Travailler chez W&B",
+      "culture": "Notre culture",
+      "openings": "Postes ouverts",
+      "apply": "Candidature spontanée"
+    },
+    "working": "Chez W&B, vous travaillez aux côtés d’une équipe technique forte de plus de 75 ans d’expérience cumulée, sur des instruments de grands fabricants mondiaux, pour des clients allant des universités et du CSIRO aux petits fabricants.",
+    "culturePlaceholder": "Une description du quotidien, des avantages et de l’évolution chez W&B sera ajoutée dès que W&B l’aura fournie.",
+    "noOpenings": "Aucun poste n’est ouvert pour le moment.",
+    "noOpeningsText": "Nous sommes toujours heureux d’échanger avec des personnes expérimentées en instrumentation, en étalonnage ou en vente technique. Envoyez une candidature spontanée et nous la conserverons.",
+    "job": {
+      "location": "Lieu",
+      "type": "Type",
+      "apply": "Postuler à ce poste",
+      "description": "Description du poste"
+    },
+    "form": {
+      "title": "Envoyer une candidature spontanée",
+      "area": "Domaine d’intérêt",
+      "areas": {
+        "calibration": "Étalonnage et essais",
+        "technical": "Vente et assistance techniques",
+        "operations": "Opérations et logistique",
+        "other": "Autre"
+      },
+      "cv": "CV",
+      "cvHint": "PDF ou Word, 5 Mo maximum.",
+      "submit": "Envoyer la candidature",
+      "sent": "Merci. Votre candidature spontanée a bien été enregistrée."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Appelez-nous, écrivez-nous ou envoyez une demande. Nous répondons à chaque demande sous 24 heures.",
+    "office": "Siège",
+    "phone": "Téléphone",
+    "fax": "Fax",
+    "email": "E-mail",
+    "address": "Adresse",
+    "map": "Ouvrir dans Google Maps",
+    "routesTitle": "Comment pouvons-nous vous aider ?",
+    "routes": {
+      "product": {
+        "h": "Demandes produits",
+        "p": "Prix, disponibilité, références et devis."
+      },
+      "technical": {
+        "h": "Assistance technique",
+        "p": "De l’aide pour la configuration, les mesures, les pannes et l’étalonnage."
+      },
+      "general": {
+        "h": "Demandes générales",
+        "p": "Tout le reste, y compris partenariats et médias."
+      }
+    },
+    "formTitle": "Envoyer une demande",
+    "abn": "ACN"
+  },
+  "form": {
+    "fullName": "Nom complet",
+    "company": "Entreprise",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "enquiryType": "Type de demande",
+    "productService": "Produit ou service",
+    "message": "Message",
+    "choose": "Choisir…",
+    "consent": "J’accepte que W&B Instruments utilise ces informations pour répondre à ma demande, comme décrit dans l’{privacy}.",
+    "consentLink": "Avis de confidentialité",
+    "submit": "Envoyer la demande",
+    "sending": "Envoi en cours…",
+    "summary": "Veuillez corriger {n} problèmes avant l’envoi :",
+    "summaryOne": "Veuillez corriger 1 problème avant l’envoi :",
+    "types": {
+      "product": "Demande produit",
+      "quote": "Devis",
+      "technical": "Assistance technique",
+      "application": "Assistance applicative",
+      "calibration": "Étalonnage",
+      "datasheet": "Demande de fiche technique",
+      "business": "Demande concernant nos entreprises",
+      "general": "Demande générale"
+    },
+    "groups": {
+      "services": "Services",
+      "solutions": "Produits et services",
+      "products": "Gammes de produits",
+      "businesses": "Nos entreprises",
+      "other": "Autre"
+    },
+    "notSure": "Pas encore sûr",
+    "errors": {
+      "name": "Saisissez votre nom complet.",
+      "email": "Saisissez votre adresse e-mail.",
+      "emailInvalid": "Saisissez une adresse e-mail valide, par exemple nom@entreprise.fr.",
+      "phone": "Saisissez un numéro de téléphone valide, par exemple +61 3 9729 2112.",
+      "type": "Choisissez un type de demande.",
+      "message": "Dites-nous en un peu plus (au moins 10 caractères).",
+      "messageLong": "Votre message est trop long (5 000 caractères maximum).",
+      "consent": "Cochez la case pour accepter l’Avis de confidentialité.",
+      "cvType": "Téléversez un document PDF ou Word.",
+      "cvSize": "Le fichier dépasse 5 Mo.",
+      "area": "Choisissez un domaine d’intérêt.",
+      "tooLong": "Ce texte est trop long."
+    },
+    "previewTitle": "Aperçu : rien n’a été envoyé",
+    "previewText": "Ceci est un aperçu du site : le formulaire a vérifié vos informations mais ne les a pas envoyées. Sur le site en ligne, votre message parvient à l’équipe W&B et vous recevez un e-mail de confirmation.",
+    "sentTitle": "Demande envoyée",
+    "sentText": "Merci. Votre référence est {ref}. Nous vous répondrons sous 24 heures.",
+    "errorTitle": "Votre demande n’a pas pu être envoyée",
+    "errorText": "Réessayez ou appelez-nous au {phone}.",
+    "another": "Envoyer un autre message"
+  },
+  "footer": {
+    "columns": {
+      "company": "Entreprise",
+      "news": "Actualités et ressources",
+      "businesses": "Nos entreprises",
+      "products": "Produits et services",
+      "connect": "Nous contacter"
+    },
+    "company": {
+      "about": "À propos",
+      "history": "Historique",
+      "purpose": "Notre raison d’être",
+      "careers": "Carrières",
+      "contact": "Contact"
+    },
+    "news": {
+      "newsroom": "Salle de presse",
+      "events": "Actualités et événements",
+      "insights": "Analyses",
+      "resources": "Ressources techniques",
+      "documentation": "Documentation produits",
+      "datasheets": "Fiches techniques"
+    },
+    "connect": {
+      "contact": "Contact",
+      "technical": "Demandes techniques",
+      "product": "Demandes produits",
+      "partnerships": "Partenariats de marques"
+    },
+    "tagline": "Mesuré. Étalonné. Fiable.",
+    "supporting": "Mesure de précision. Instrumentation experte. Étalonnage de confiance.",
+    "followUs": "Suivez-nous",
+    "copyright": "© {year} {company}. Tous droits réservés.",
+    "legalNav": "Mentions légales, confidentialité et conformité",
+    "certified": "Certifiés ISO 9001:2015 · FS604761",
+    "designedBy": "Conçu par",
+    "designerLink": "JSR sur LinkedIn (s’ouvre dans un nouvel onglet)"
+  },
+  "legal": {
+    "titles": {
+      "privacy": "Avis de confidentialité",
+      "cookies": "Cookies",
+      "terms": "Conditions d’utilisation",
+      "imprint": "Mentions légales",
+      "accessibility": "Accessibilité",
+      "communication-preferences": "Préférences de communication",
+      "resource-availability": "Disponibilité des ressources",
+      "do-not-sell": "Ne pas vendre mes informations personnelles",
+      "governance": "Transparence de la gouvernance",
+      "machine-readable-files": "Fichiers lisibles par machine",
+      "copyright": "Droits d’auteur"
+    },
+    "draftNotice": "Projet à relire. Les éléments marqués « À confirmer » doivent être complétés et la page approuvée par W&B Instruments avant publication.",
+    "placeholderNotice": "Page provisoire. W&B Instruments n’a pas fourni de contenu approuvé pour cette page. Rien ici ne constitue une politique, une déclaration de conformité ou un avis juridique.",
+    "englishOnly": "Les pages juridiques sont publiées en anglais.",
+    "effective": "Date d’entrée en vigueur",
+    "willContain": "Contenu prévu de cette page",
+    "facts": "Ce que nous pouvons dire de ce site aujourd’hui",
+    "questions": "Questions sur cette page",
+    "questionsText": "Écrivez-nous à {email} ou appelez le {phone}."
+  },
+  "viewer": {
+    "role": "Visionneuse 3D",
+    "illustration": "illustration 3D conceptuelle",
+    "keys": "Faites glisser ou utilisez les flèches pour faire pivoter. Plus et moins pour zoomer, E pour éclater, R pour réinitialiser.",
+    "tag": "Modèle 3D conceptuel",
+    "note": "Illustration 3D conceptuelle d’un instrument typique de ce type. Ce n’est pas le modèle d’un produit d’un fabricant précis, et les composants internes montrés sont typiques, non vérifiés par le fabricant.",
+    "controls": "Commandes de la visionneuse 3D",
+    "drag": "Faites glisser pour pivoter",
+    "zoomIn": "Zoom avant",
+    "zoomOut": "Zoom arrière",
+    "reset": "Réinitialiser la vue",
+    "explode": "Vue éclatée",
+    "reassemble": "Réassembler l’instrument",
+    "full": "Inspection plein écran",
+    "exitFull": "Quitter le plein écran",
+    "closeDetails": "Fermer les détails du composant",
+    "typical": "Composant typique de ce type d’instrument, montré à titre d’illustration. Ce n’est pas un plan du fabricant.",
+    "components": "Composants",
+    "details": "détails du composant",
+    "models": {
+      "pyrometer": {
+        "name": "Pyromètre infrarouge fixe",
+        "parts": {
+          "optics": {
+            "name": "Optique",
+            "desc": "Collecte l’énergie infrarouge de la cible et la focalise sur le détecteur. La conception de la lentille fixe la distance de mesure et la taille du spot, qui varient selon le modèle."
+          },
+          "bezel": {
+            "name": "Bague de maintien de la lentille",
+            "desc": "Maintient l’optique en place et protège le bord de la lentille."
+          },
+          "sensor": {
+            "name": "Élément sensible",
+            "desc": "Le détecteur infrarouge transforme le rayonnement focalisé en un faible signal électrique. Sa longueur d’onde de travail explique pourquoi les métaux, le verre et les plastiques exigent chacun un pyromètre bien choisi."
+          },
+          "electronics": {
+            "name": "Traitement du signal",
+            "desc": "Amplifie le signal du détecteur, le corrige selon l’émissivité de la cible et le convertit en une sortie exploitable par les afficheurs et les systèmes de commande."
+          },
+          "housing": {
+            "name": "Boîtier",
+            "desc": "Protège l’optique et l’électronique en environnement industriel. Le corps fileté permet de fixer le capteur sur un support."
+          },
+          "mounting": {
+            "name": "Écrous de fixation",
+            "desc": "Bloquent le boîtier sur son support pour que le capteur reste pointé vers la cible."
+          },
+          "connector": {
+            "name": "Connecteur et câble",
+            "desc": "Amène l’alimentation et transmet le signal de mesure vers un afficheur ou un système de commande."
+          }
+        }
+      },
+      "panel-meter": {
+        "name": "Indicateur numérique de tableau",
+        "parts": {
+          "bezel": {
+            "name": "Façade et touches",
+            "desc": "La face visible sur l’armoire de commande, avec les touches pour configurer l’afficheur."
+          },
+          "display": {
+            "name": "Afficheur",
+            "desc": "Affiche la mesure en direct issue du signal du capteur."
+          },
+          "pcb": {
+            "name": "Électronique de mesure",
+            "desc": "Lit le signal de process (mA, V ou température), le met à l’échelle pour l’affichage et pilote les relais d’alarme ou la retransmission lorsque ces options sont installées."
+          },
+          "case": {
+            "name": "Boîtier de tableau",
+            "desc": "S’insère dans une découpe de la porte de l’armoire de commande."
+          },
+          "terminals": {
+            "name": "Bornes arrière",
+            "desc": "Là où se raccordent le signal du capteur, l’alimentation et les éventuelles sorties relais."
+          },
+          "clamps": {
+            "name": "Brides de fixation",
+            "desc": "Plaquent l’appareil contre l’arrière de la porte de l’armoire."
+          }
+        }
+      },
+      "loop-indicator": {
+        "name": "Indicateur de terrain alimenté par la boucle",
+        "parts": {
+          "window": {
+            "name": "Fenêtre et lunette",
+            "desc": "Assure l’étanchéité de la face du boîtier et protège l’afficheur tout en le gardant lisible."
+          },
+          "display": {
+            "name": "Afficheur",
+            "desc": "Affiche la mesure issue du signal de boucle 4–20 mA."
+          },
+          "electronics": {
+            "name": "Électronique alimentée par la boucle",
+            "desc": "Fonctionne sur la boucle 4–20 mA elle-même : aucune alimentation séparée n’est nécessaire là où l’indicateur est installé."
+          },
+          "housing": {
+            "name": "Boîtier",
+            "desc": "Protège l’électronique à l’endroit où l’indicateur est installé dans l’usine."
+          },
+          "entry": {
+            "name": "Entrée de câble",
+            "desc": "Là où le câblage de la boucle entre dans le boîtier."
+          }
+        }
+      },
+      "blackbody": {
+        "name": "Source d’étalonnage corps noir",
+        "parts": {}
+      },
+      "dry-block": {
+        "name": "Calibrateur de température à bloc sec",
+        "parts": {}
+      },
+      "handheld-humidity": {
+        "name": "Appareil portable avec sonde d’humidité",
+        "parts": {}
+      },
+      "handheld-air": {
+        "name": "Appareil portable avec sonde de vitesse d’air",
+        "parts": {}
+      },
+      "handheld-sound": {
+        "name": "Sonomètre portable",
+        "parts": {}
+      },
+      "handheld-light": {
+        "name": "Appareil portable avec capteur de lumière",
+        "parts": {}
+      },
+      "handheld-water": {
+        "name": "Appareil portable avec électrode de qualité de l’eau",
+        "parts": {}
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "La page que vous cherchiez a été déplacée ou n’existe pas.",
+    "home": "Aller à l’accueil",
+    "search": "Rechercher sur le site"
+  }
+}

@@ -1,0 +1,1 @@
+import{u,c as o}from"./InstrumentViewer-Y9Qds83X.js";function c(i,e=.9,r=2.2){const n=u();o(()=>{var t;const s=(t=i.current)==null?void 0:t.material;s&&(s.emissiveIntensity=e+(r-e)*n.night.current)})}export{c as u};

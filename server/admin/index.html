@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>W&amp;B Instruments · Website content</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">W&amp;B Instruments <span>Website content</span></div>
+  <div id="who" hidden><span id="whoName"></span> <a href="/" target="_blank" rel="noopener">View website ↗</a> <button id="logout" class="link">Sign out</button></div>
+</header>
+<div class="stripe"></div>
+
+<main>
+  <section id="login" class="card narrow" hidden>
+    <h1>Sign in</h1>
+    <p class="muted">Use the user name and password you were given.</p>
+    <form id="loginForm">
+      <label>User name <input name="username" autocomplete="username" required></label>
+      <label>Password <input name="password" type="password" autocomplete="current-password" required></label>
+      <p class="error" id="loginError" role="alert"></p>
+      <button class="btn">Sign in</button>
+    </form>
+  </section>
+
+  <section id="app" hidden>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="posts" class="on">News &amp; vlogs</button>
+      <button role="tab" data-tab="jobs">Job openings</button>
+      <button role="tab" data-tab="enquiries">Enquiries received</button>
+      <button role="tab" data-tab="careers">Applications received</button>
+    </nav>
+
+    <div id="toast" role="status"></div>
+
+    <!-- NEWS & VLOGS -->
+    <div data-panel="posts">
+      <div class="bar"><h1>News &amp; vlogs</h1><button class="btn" id="newPost">+ New post</button></div>
+      <p class="muted">Posts marked <b>On the website</b> appear on the News page and on the home page. A post with a video shows a play symbol.</p>
+      <div id="postList" class="list"></div>
+
+      <form id="postForm" class="card" hidden>
+        <h2 id="postFormTitle">New post</h2>
+        <label>Title <span class="req">required</span><input name="title" maxlength="160"></label>
+        <div class="row">
+          <label>Category <select name="category"></select></label>
+          <label>Date <input name="date" type="date"></label>
+          <label>Written by <span class="opt">optional</span><input name="author" maxlength="80"></label>
+        </div>
+        <label>Short summary <span class="opt">optional, shown on the card. Left empty, the start of the post is used.</span><textarea name="excerpt" rows="2" maxlength="300"></textarea></label>
+        <label>The post <span class="req">required</span> <span class="opt">Leave an empty line between paragraphs.</span><textarea name="body" rows="10"></textarea></label>
+
+        <fieldset>
+          <legend>Picture</legend>
+          <p class="muted">Every post shows a picture. Upload your own, or pick one of the standard pictures. If you do neither, a standard picture for the category is used.</p>
+          <div class="media">
+            <img id="imgPreview" alt="" hidden>
+            <div>
+              <label class="btn ghost file">Upload a picture<input type="file" id="imgFile" accept="image/jpeg,image/png,image/webp,image/gif"></label>
+              <button type="button" class="btn ghost" id="pickImage">Choose a standard picture</button>
+              <button type="button" class="link" id="clearImage" hidden>Remove picture</button>
+              <input type="hidden" name="image">
+            </div>
+          </div>
+          <div id="siteImages" class="gallery" hidden></div>
+          <label>Describe the picture in a few words <span class="opt">for people who cannot see it</span><input name="imageAlt" maxlength="160"></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Video (for a vlog) <span class="opt">optional</span></legend>
+          <label>YouTube or Vimeo link <input name="video" placeholder="https://www.youtube.com/watch?v=…"></label>
+          <p class="muted">Or upload a short video file (MP4): <label class="btn ghost file small">Upload a video<input type="file" id="videoFile" accept="video/mp4,video/webm"></label> <span id="videoInfo"></span></p>
+        </fieldset>
+
+        <label class="check"><input type="checkbox" name="published"> <span><b>Show on the website</b><br><span class="muted">Leave unticked to save it as a draft that only you can see here.</span></span></label>
+        <p class="error" id="postError" role="alert"></p>
+        <div class="actions"><button class="btn">Save</button><button type="button" class="btn ghost" data-cancel>Cancel</button></div>
+      </form>
+    </div>
+
+    <!-- JOBS -->
+    <div data-panel="jobs" hidden>
+      <div class="bar"><h1>Job openings</h1><button class="btn" id="newJob">+ New job opening</button></div>
+      <p class="muted">Openings marked <b>On the website</b> appear on the Careers page. They disappear by themselves after the closing date.</p>
+      <div id="jobList" class="list"></div>
+
+      <form id="jobForm" class="card" hidden>
+        <h2 id="jobFormTitle">New job opening</h2>
+        <label>Job title <span class="req">required</span><input name="title" maxlength="120" placeholder="e.g. Calibration Technician"></label>
+        <div class="row">
+          <label>Location <span class="req">required</span><input name="location" maxlength="120" placeholder="e.g. Kilsyth, VIC"></label>
+          <label>Type <select name="type"></select></label>
+          <label>Closing date <span class="opt">optional</span><input name="closingDate" type="date"></label>
+        </div>
+        <label>About the job <span class="req">required</span> <span class="opt">What the person will do, what they need. Leave an empty line between paragraphs. Start a line with "- " for a bullet point.</span><textarea name="description" rows="10"></textarea></label>
+        <label>Applications can also be emailed to <span class="opt">optional</span><input name="applyEmail" type="email" placeholder="careers@your-company.com"></label>
+        <label class="check"><input type="checkbox" name="published"> <span><b>Show on the website</b><br><span class="muted">Leave unticked to keep it as a draft.</span></span></label>
+        <p class="error" id="jobError" role="alert"></p>
+        <div class="actions"><button class="btn">Save</button><button type="button" class="btn ghost" data-cancel>Cancel</button></div>
+      </form>
+    </div>
+
+    <!-- SUBMISSIONS -->
+    <div data-panel="enquiries" hidden>
+      <div class="bar"><h1>Enquiries received</h1><a class="btn ghost" href="/api/admin/submissions/enquiries?format=csv">Download as spreadsheet (CSV)</a></div>
+      <div id="enqList" class="list"></div>
+    </div>
+    <div data-panel="careers" hidden>
+      <div class="bar"><h1>Applications received</h1><a class="btn ghost" href="/api/admin/submissions/careers?format=csv">Download as spreadsheet (CSV)</a></div>
+      <div id="carList" class="list"></div>
+    </div>
+  </section>
+  <p id="off" class="card narrow" hidden></p>
+</main>
+<script src="admin.js" type="module"></script>
+</body>
+</html>

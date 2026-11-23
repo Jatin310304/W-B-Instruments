@@ -1,0 +1,21 @@
+/** Every internal path is built here, so translated route segments can be added in one place later. */
+export const to = {
+  home: () => '/',
+  industries: () => '/industries',
+  industry: (id: string) => `/industries/${id}`,
+  products: (q?: Record<string, string>) => '/products' + (q ? '?' + new URLSearchParams(q).toString() : ''),
+  product: (id: string) => `/products/${id}`,
+  solution: (id: string) => `/solutions/${id}`,
+  businesses: () => '/businesses',
+  business: (id: string) => `/businesses/${id}`,
+  news: (cat?: string) => '/news' + (cat ? `?category=${cat}` : ''),
+  article: (id: string) => `/news/${id}`,
+  resources: () => '/resources',
+  resource: (id: string) => `/resources/${id}`,
+  support: (hash?: string) => '/support' + (hash ? `#${hash}` : ''),
+  about: (hash?: string) => '/about' + (hash ? `#${hash}` : ''),
+  careers: (hash?: string) => '/careers' + (hash ? `#${hash}` : ''),
+  contact: (q?: Record<string, string>) => '/contact' + (q ? '?' + new URLSearchParams(q).toString() : '') ,
+  legal: (id: string) => `/legal/${id}`,
+  search: (q?: string) => '/search' + (q ? `?q=${encodeURIComponent(q)}` : ''),
+}

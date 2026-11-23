@@ -1,0 +1,52 @@
+{
+  "name": "wb-instruments-website-v13",
+  "private": true,
+  "version": "13.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:preview": "tsc --noEmit && vite build --mode singlefile",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "start": "node server/index.mjs",
+    "serve": "npm run build && node server/index.mjs",
+    "test:server": "node --test server/test/*.test.mjs",
+    "hash-password": "node server/hash-password.mjs"
+  },
+  "dependencies": {
+    "@fontsource/barlow-semi-condensed": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "compression": "^1.7.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "lucide-react": "0.460.0",
+    "maath": "^0.10.8",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.16",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.30.6",
+    "three": "^0.170.0",
+    "vite-plugin-singlefile": "2.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@types/three": "^0.170.0",
+    "@vitejs/plugin-react": "4.3.4",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.5.33",
+    "tailwindcss": "3.4.15",
+    "typescript": "5.6.3",
+    "vite": "5.4.21"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

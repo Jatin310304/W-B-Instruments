@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /search
+
+Sitemap: https://www.wandbinstruments.com.au/sitemap.xml
