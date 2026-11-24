@@ -6,16 +6,20 @@ import path from 'node:path'
 import { createApp } from '../app.mjs'
 import { createStore } from '../store.mjs'
 import { createCms } from '../cms.mjs'
-import { createAuth } from '../auth.mjs'
+import { createAuth, hashPassword } from '../auth.mjs'
 
 const dataDir = mkdtempSync(path.join(tmpdir(), 'wb-test-'))
 const sent = []
 const mailer = { live: false, enquiry: async (ref, v) => sent.push({ kind: 'enquiry', ref, v }), careers: async (ref, v, cv) => sent.push({ kind: 'careers', ref, v, cv }) }
 const config = { distDir: path.join(dataDir, 'no-dist'), allowedOrigins: ['https://www.wandbinstruments.com.au'], trustProxy: false, maxVideoMb: 1, siteImages: [], adminPath: '/staff-test' }
-const auth = createAuth({ users: 'editor:correct-horse-battery', secret: 'x'.repeat(40), log: {} })
+const auth = createAuth({
+  users: `editor:${hashPassword('correct-horse-battery')}`,
+  secret: 'x'.repeat(40),
+  log: {}
+})
 let server, base
 before(async () => {
-  const app = createApp({ config, store: createStore(dataDir), mailer, cms: createCms(dataDir), auth, log: { error() {}, info() {} } })
+  const app = createApp({ config, store: createStore(dataDir), mailer, cms: createCms(dataDir), auth, log: { error() { }, info() { } } })
   await new Promise((r) => { server = app.listen(0, '127.0.0.1', r) })
   base = `http://127.0.0.1:${server.address().port}`
 })
